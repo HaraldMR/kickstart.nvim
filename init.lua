@@ -280,6 +280,9 @@ require('lazy').setup({
     ---@type render.md.UserConfig
     opts = {},
   },
+  { 
+    'catppuccin/nvim', name = 'catppuccin', priority = 1000 
+  },
   { -- Adds git related signs to the gutter, as well as utilities for managing changes
     'lewis6991/gitsigns.nvim',
     opts = {
